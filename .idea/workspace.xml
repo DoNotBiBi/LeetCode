@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf8b880e-4736-4097-aa92-5e8f4b6ed4e3" name="Default Changelist" comment="gg">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf8b880e-4736-4097-aa92-5e8f4b6ed4e3" name="Default Changelist" comment="gg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,9 +75,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="gg" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="790" key="FileChooserDialogImpl" timestamp="1597650778179">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="0" y="191" key="FileChooserDialogImpl" timestamp="1597656894702">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="0" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597656894702" />
     <state x="0" y="790" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1280.680@0.0.2560.1400" timestamp="1597650778179" />
     <state x="0" y="790" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1597637544690" />
     <state x="656" y="257" key="SettingsEditor" timestamp="1597650736549">
