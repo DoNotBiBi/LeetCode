@@ -113,4 +113,4 @@ def cal_test():
 if __name__ == '__main__':
     # print(__name__)  # 输出文件名
     # print(dir(__name__))
-    strformat_test()
+    print('测试git ')  # 按时
