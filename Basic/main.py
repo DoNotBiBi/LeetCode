@@ -112,4 +112,4 @@ def cal_test():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print(__name__)  # 输出文件名
-    print(dir(__name__)) #
+    print(dir(__name__)) #sdhgsdfgsdfgsfgsfdgsgs
