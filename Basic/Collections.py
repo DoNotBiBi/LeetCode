@@ -42,5 +42,5 @@ def counter_test():
     wordList = ["a", "b", "c", "c", "a", "a"]
     for word in wordList:
         cnt[word] += 1
-    print(cnt)  # 测试 git
+    print(cnt)
 

@@ -29,8 +29,10 @@
 # oct(x) 将一个整数转换为一个八进制字符串
 import keyword
 import sys
-
+from DB import *
 from Collections import *
+from Error import *
+from File import *
 from IO import *
 from Math import *
 from String import *
@@ -38,6 +40,7 @@ from List import *
 from Dict import *
 from Function import *
 from collections import *
+from Class import *
 
 
 def print_keywords():
@@ -112,4 +115,11 @@ def cal_test():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print(__name__)  # 输出文件名
-    print(dir(__name__))
+    # print(dir(__name__))
+    # try:
+    #     raise MyError(2 * 2)
+    # except MyError as e:
+    #     print('My exception occurred, value:', e.value)
+    db_Test()
+
+
