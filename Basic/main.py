@@ -136,4 +136,4 @@ if __name__ == '__main__':
     #     print('My exception occurred, value:', e.value)
     a = [1, 1, 1, 1, 2, 2, 2, 2, 4, 5, 2, 2]
     x = Solution()
-    print(x.majorityElement(a))
+    print(x.majorityElement(a)) ##
