@@ -112,7 +112,21 @@ def cal_test():
     print(True and False)
 
 
-# Press the green button in the gutter to run the script.
+class Solution:
+    def majorityElement(self, nums: object) -> int:
+        """
+
+        :type nums: List[int]
+        """
+        numsDict = {}
+        n = len(nums)
+        for i in nums:
+            numsDict[i] = numsDict.get(i, 0) + 1
+        for key in numsDict.keys():
+            if numsDict[key] > n / 2:
+                return key
+
+
 if __name__ == '__main__':
     # print(__name__)  # 输出文件名
     # print(dir(__name__))
@@ -120,6 +134,6 @@ if __name__ == '__main__':
     #     raise MyError(2 * 2)
     # except MyError as e:
     #     print('My exception occurred, value:', e.value)
-    db_Test()
-
-
+    a = [1, 1, 1, 1, 2, 2, 2, 2, 4, 5, 2, 2]
+    x = Solution()
+    print(x.majorityElement(a))  # hello # 都是
