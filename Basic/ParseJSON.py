@@ -11,6 +11,7 @@
 
 import json
 
+
 def pjson_test():
     # Python 字典类型转换为 JSON 对象
     data1 = {
@@ -34,10 +35,13 @@ def pjson_read():
     with open('data.json', 'r') as f:
         data = json.load(f)
     print(data)
+
+
 def pjson_write():
     data = {
         'name': 'tianzhongli',
-        'age': 1
+        'age': 1,
+        'gender': 'male'
     }
     with open('data2.json', 'w') as f:
         json.dump(data, f)
