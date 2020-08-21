@@ -20,6 +20,26 @@
 # def __str__(self):
 #     return 'Vector (%d, %d)' % (self.a, self.b)
 
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        lastnode = prenode = ListNode(0)
+        val = 0  # 相当于进位
+        while val or l1 or l2:
+            val += (l1.val if l1 else 0) + (l2.val if l2 else 0)
+            lastnode.next = ListNode(val % 10)
+            lastnode = lastnode.next
+            val //= 10
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+        return prenode.next
+
 
 #  类的基本定义
 class base_class:
