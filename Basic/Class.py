@@ -66,3 +66,5 @@ class dog(base_class):  # 多个继承，用逗号分隔开
         self.__print_age()  # 只能在类中使用
         super().print_name()  # 调用父类的方法
         print("this animal is {name},and colour is {colour}".format(name=self.name, colour=self.colour))
+
+

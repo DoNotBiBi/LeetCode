@@ -41,7 +41,8 @@ from Dict import *
 from Function import *
 from collections import *
 from Class import *
-
+from ParseXML import *
+from ParseJSON import *
 
 def print_keywords():
     print(keyword.kwlist)
@@ -134,6 +135,4 @@ if __name__ == '__main__':
     #     raise MyError(2 * 2)
     # except MyError as e:
     #     print('My exception occurred, value:', e.value)
-    a = [1, 1, 1, 1, 2, 2, 2, 2, 4, 5, 2, 2]
-    x = Solution()
-    print(x.majorityElement(a)) ##
+    pjson_write()
