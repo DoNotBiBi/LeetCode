@@ -35,6 +35,7 @@ from Error import *
 from File import *
 from IO import *
 from Math import *
+from STMP import *
 from String import *
 from List import *
 from Dict import *
@@ -43,6 +44,9 @@ from collections import *
 from Class import *
 from ParseXML import *
 from ParseJSON import *
+from Threading import *
+from Time import *
+
 
 def print_keywords():
     print(keyword.kwlist)
@@ -128,6 +132,8 @@ class Solution:
                 return key
 
 
+from Threading import *
+import queue
 if __name__ == '__main__':
     # print(__name__)  # 输出文件名
     # print(dir(__name__))
@@ -135,4 +141,5 @@ if __name__ == '__main__':
     #     raise MyError(2 * 2)
     # except MyError as e:
     #     print('My exception occurred, value:', e.value)
-    pjson_write()
+    clock_test()
+    print("HELO")
