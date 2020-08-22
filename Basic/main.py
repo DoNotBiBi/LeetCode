@@ -29,15 +29,23 @@
 # oct(x) 将一个整数转换为一个八进制字符串
 import keyword
 import sys
-
+from DB import *
 from Collections import *
+from Error import *
+from File import *
 from IO import *
 from Math import *
+from STMP import *
 from String import *
 from List import *
 from Dict import *
 from Function import *
 from collections import *
+from Class import *
+from ParseXML import *
+from ParseJSON import *
+from Threading import *
+from Time import *
 
 
 def print_keywords():
@@ -109,7 +117,29 @@ def cal_test():
     print(True and False)
 
 
-# Press the green button in the gutter to run the script.
+class Solution:
+    def majorityElement(self, nums: object) -> int:
+        """
+
+        :type nums: List[int]
+        """
+        numsDict = {}
+        n = len(nums)
+        for i in nums:
+            numsDict[i] = numsDict.get(i, 0) + 1
+        for key in numsDict.keys():
+            if numsDict[key] > n / 2:
+                return key
+
+
+from Threading import *
+import queue
 if __name__ == '__main__':
     # print(__name__)  # 输出文件名
-    print(dir(__name__))
+    # print(dir(__name__))
+    # try:
+    #     raise MyError(2 * 2)
+    # except MyError as e:
+    #     print('My exception occurred, value:', e.value)
+    clock_test()
+    print("HELO")
