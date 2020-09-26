@@ -21,3 +21,10 @@ class ListNode:
         if l2 is not None:
             pre_l.next = l2
         return new_head.next
+    # 找公共结点，并输出对应的值
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        ha, hb = headA, headB
+        while ha!=hb:
+            ha=ha.next if ha else headB
+            hb=hb.next if hb else headA
+        return ha

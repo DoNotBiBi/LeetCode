@@ -176,3 +176,14 @@ class Solution:
         # while tmp > num / tmp:
         #     tmp = (tmp + num // tmp) // 2
         # return tmp == num / tmp
+    # 统计 二进制1的个数
+    def hammingWeight(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        count = 0
+        while n:
+            n &= n - 1
+            count += 1
+        return count
