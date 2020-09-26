@@ -23,3 +23,11 @@ zip(a,c)              # 元素个数与最短的列表一致
 zip(*zipped)          # 与 zip 相反，*zipped 可理解为解压，返回二维矩阵式
 ## [(1, 2, 3), (4, 5, 6)]
 ```
+
+
+# range()
+range(start, stop[, step])
+```
+# 输出偶数   
+list(range(0, 10, 2))
+```
