@@ -1,2 +1,2 @@
 if __name__ == '__main__':
-    print("hello") # 测试
+    print("hello")  # 测试srt
